@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css?v=12312">
+
+    <title>Title</title>
+</head>
+<body>
+<div id="header">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-9 col-sm-6 col-md-2">
+                <a href="#" class="headerLogo"><img src="https://www.upwork.com/static/marketing/ui/master/img/upwork-logo.svg" alt="UpWork"
+                     width="106"></a>
+            </div>
+            <div class="col-xs-3 col-sm-6 col-md-10 ep">
+                <div class="test">
+                    <input type="text" placeholder="Find Freelancers" id="searchButton">
+                    <ul id="left">
+                        <li class="browseDropdown">
+                            <a href="#" onclick="dropDown()" class="dropdown-item">Browse</a>
+                            <div id="myDropdown" class="dropdown-content">
+                                <ul class="sub-menu">
+                                    <li><a href="#">Browse Categories</a></li>
+                                    <li><a href="#">Browse Freelancers</a></li>
+                                    <li><a href="#">Browse Jobs</a></li>
+                                    <li><a href="#">Trending Skills</a></li>
+                                    <li><a href="#">Browse Hiring Resources</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">How it works</a></li>
+                    </ul>
+
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <span class="icon signup"></span>
+                                <a href="#">Sign Up</a>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="icon login"></span>
+                                <a href="#">Login</a>
+                            </a>
+                        </li>
+                    </ul>
+                    <button type="button" id="buttonHeader">Become a freelancer</button>
+                </div>
+                <a href="#" class="mobileMenu">
+                    <span></span>
+                </a>
+                <div id="menu">
+                    <nav class="navigation">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="buttonMenu">
+                                    <button type="button">Get Started</button>
+                                    <a href="#" class="closeMenu">x</a>
+                                </div>
+                            </li>
+                            <li><a href="#">Home</a></li>
+                            <li id="browse">
+                                <span id="browseExpand">Browse Categories</span>
+                                <ul class="list-unstyled listExpanded browse">
+                                    <li><a href="#">Web Developers</a></li>
+                                    <li><a href="#">Mobile Developers</a></li>
+                                    <li><a href="#">Designers & Creatives</a></li>
+                                    <li><a href="#">Writers</a></li>
+                                    <li><a href="#">Virtual Assistants</a></li>
+                                    <li><a href="#">Customer Service Agents</a></li>
+                                    <li><a href="#">Sales & Marketing Experts</a></li>
+                                    <li><a href="#">Accountants & Consultants</a></li>
+                                    <li><a href="#">View All Categories</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">How it works</a></li>
+                            <li><a href="#">Become a freelancer</a></li>
+                            <li id="aboutUs">
+                                <span id="aboutUsExpand">About us</span>
+                                <ul class="list-unstyled listExpanded aboutUs">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Careers</a></li>
+                                    <li><a href="#">Team</a></li>
+                                    <li><a href="#">Board of Directors</a></li>
+                                    <li><a href="#">Press</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Sign up</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div id="slider">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-7">
+                <div class="sliderVertical">
+                    <h2>Get more done with freelancers</h2>
+                    <h4>Get more done with freelancers</h4>
+                    <div class="form-group">
+                        <input type="text" placeholder="What type of work do you need?" id="sliderButton"
+                               class="form-control">
+                        <button type=button>Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="allCategories">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12">
+                <h2>Work with someone perfect for your team</h2>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12">
+                <ul class="list-unstyled">
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-first"></span>
+                                <hr class="testline">
+                                <h5>Web developers</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-second"></span>
+                                <hr class="testline">
+                                <h5>Mobile developers</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-third"></span>
+                                <hr class="testline">
+                                <h5>Designer & creatives</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-fourth"></span>
+                                <hr class="testline">
+                                <h5>Writers</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-fifth"></span>
+                                <hr class="testline">
+                                <h5>Virtual assistants</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-sixth"></span>
+                                <hr class="testline">
+                                <h5>Customer service agents</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-seventh"></span>
+                                <hr class="testline">
+                                <h5>Sales and marketing experts</h5>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="spanner">
+                        <a href="#">
+                            <span class="front">
+                                <span class="icon icon-eight"></span>
+                                <hr class="testline">
+                                <h5>Accountant and consultants</h5>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <button type="button" id="buttonCategories">See all categories</button>
+    </div>
+</div>
+<div id="howItWorks">
+    <div class="container">
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="card">
+                <div class="icon icon-find"></div>
+                <hr>
+                <h4>Find</h4>
+                <p>
+                    Post a job to tell us about your project. We'll quickly match you with the right freelancers.
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="card">
+                <div class="icon icon-hire"></div>
+                <hr>
+                <h4>Hire</h4>
+                <p>
+                    Browse profiles, reviews, and proposals then interview top candidates. Hire a favorite and begin
+                    your project.
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="card">
+                <div class="icon icon-work"></div>
+                <hr>
+                <h4>Work</h4>
+                <p>
+                    Use the Upwork platform to chat, share files, and collaborate from your desktop or on the go.
+                </p>
+            </div>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="card">
+                <div class="icon icon-pay"></div>
+                <hr>
+                <h4>Pay</h4>
+                <p>
+                    Invoicing and payments happen through Upwork. With Upwork Protection, only pay for work you
+                    authorize.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="service">
+    <div class="container">
+        <div class="row">
+            <h1>Find the level of service that works for you</h1>
+            <div class="col-sm-12 col-md-3">
+                <p class="serviceDesc">Each option includes access to Upwork's large pool of top-quality freelancers.
+                    Choose the level of service you need.</p>
+            </div>
+            <div class="col-sm-4 col-md-3 cards" id="upwork">
+                <div class="card upwork">
+                    <div class="card-block">
+                        <h3 class="card-title">Upwork</h3>
+                        <p class="card-text">Professional freelancers and the essentials to find them.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-default btn-block-xsmall">Sign up</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="expandUpwork">
+                    <div class="col-sm-12">
+                        <h4>Upwork features</h4>
+                        <ul>
+                            <li>Find the right person with efficient search algorithms</li>
+                            <li>Collaborate and pay easily with built-in features</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="control upwork">
+                            <h4 class="expand">View Upwork features</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 cards" id="upworkPro">
+                <div class="card upworkPro">
+                    <div class="card-block">
+                        <h3 class="card-title">Upwork Pro</h3>
+                        <p class="card-text">Premium talent, pre-vetted and handpicked for you.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-default btn-block-xsmall">Full Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="expandUpworkPro">
+                    <div class="col-sm-12">
+                        <h4>Upwork Pro features</h4>
+                        <ul>
+                            <li>Find the right person with efficient search algorithms</li>
+                            <li>Collaborate and pay easily with built-in features</li>
+                            <li>Get access to freelancers pre-vetted by Upwork</li>
+                            <li>Save time with a dedicated account manager</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="control upworkPro">
+                            <h4 class="expand">View Upwork Pro features</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 col-md-3 cards" id="upworkEnterprise">
+                <div class="card upworkEnterprise">
+                    <div class="card-block">
+                        <h3 class="card-title">Upwork Enterprise</h3>
+                        <p class="card-text">End-to-end Freelancer Management System.</p>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-default btn-block-xsmall">Full Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="expandUpworkEnterprise">
+                    <div class="col-sm-12">
+                        <h4>Upwork Enterprise features</h4>
+                        <ul>
+                            <li>Find the right person with efficient search algorithms</li>
+                            <li>Collaborate and pay easily with built-in features</li>
+                            <li>Get access to freelancers pre-vetted by Upwork</li>
+                            <li>Save time with a dedicated account manager</li>
+                            <li>Fits your company's needs with tailored onboarding and payment options</li>
+                            <li>Stay compliant with worker classification services</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="control upworkEnterprise">
+                            <h4 class="expand">View Upwork Enterprise features</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="expandTable">
+                <table class="table table-bordered">
+                    <tbody>
+                    <tr>
+                        <td>
+                            <p class="tableInfo">Search algorithm to find the right freelancer</p>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="tableInfo">Built in colaborations and payment features</p>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="tableInfo">Freelancers pre-vetted by upwork</p>
+                        </td>
+                        <td>
+                            <span></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="tableInfo">Dedicated account management</p>
+                        <td>
+                            <span></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="tableInfo">Tailored onboarding and payment options</p>
+                        <td>
+                            <span></span>
+                        </td>
+                        <td>
+                            <span></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="tableInfo">Worker classification services</p>
+                        <td>
+                            <span></span>
+                        </td>
+                        <td>
+                            <span></span>
+                        </td>
+                        <td>
+                            <span class="ticked"></span>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="mobileService">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tile-block">
+                            <div class="check-cell">
+                                <p>Search algorith to find the right freelancer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="leftBorder">
+                            <div class="check-cell checked ">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="rightBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tile-block">
+                            <div class="check-cell">
+                                <p>Built in colaboration and payment features</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="leftBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="rightBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tile-block">
+                            <div class="check-cell">
+                                <p>Freelancers pre-vetted by UpWork</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="leftBorder">
+                            <div class="check-cell"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="rightBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tile-block">
+                            <div class="check-cell">
+                                <p>Dedicated account management</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="leftBorder">
+                            <div class="check-cell"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="rightBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tile-block">
+                            <div class="check-cell">
+                                <p>Tailored onboarding and payment options</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="leftBorder">
+                            <div class="check-cell"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <div class="check-cell"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="rightBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tile-block">
+                            <div class="check-cell">
+                                <p>Search algorith to find the right freelancer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="leftBorder">
+                            <div class="check-cell"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div>
+                            <div class="check-cell"></div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="rightBorder">
+                            <div class="check-cell checked">
+                                <span class="ticked"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="PrimaryControl">
+                        <h4 class="expand">Compare Details</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div id="stories">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <span class="iconQuote"></span>
+                <p id="text">Our freelancer is gold. She is the full package.</p>
+                <p id="author">Patrick Cornour<br>VP of People @ FlightCar</p>
+                <button type="button" id="buttonStories">See More Stories</button>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-6">
+                <a href="#"><img src="images/storiespic.png" width="100%"></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="business">
+    <div class="container">
+        <div class="row">
+            <h4>Top business hiring on upwork</h4>
+            <div class="logobar"></div>
+        </div>
+    </div>
+</div>
+<div id="topSkills">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h4>Browse top skills</h4>
+                <hr>
+            </div>
+            <ul class="col-sm-10 col-sm-offset-1 col-md-12 col-md-offset-0 desktop">
+                <li><a href="#">Android Developers</a></li>
+                <li><a href="#">AngularJs Developers</a></li>
+                <li><a href="#">Bookkeepers</a></li>
+                <li><a href="#">C# Developers</a></li>
+                <li><a href="#">Content Writers</a></li>
+                <li><a href="#">Copywriters</a></li>
+                <li><a href="#">Customer Service Representives</a></li>
+                <li><a href="#">Data Entry Specialist</a></li>
+                <li><a href="#">Email Marketing Consultants</a></li>
+                <li><a href="#">Excel Experts</a></li>
+                <li><a href="#">Facebook Marketers</a></li>
+                <li><a href="#">Graphic Designers</a></li>
+                <li><a href="#">iOS Developers</a></li>
+                <li><a href="#">Javascript Developers</a></li>
+                <li><a href="#">jQuery Developers</a></li>
+                <li><a href="#">Mobile App Developers</a></li>
+                <li><a href="#">Objective C-Developers</a></li>
+                <li><a href="#">PHP Developers</a></li>
+                <li><a href="#">Python Developers</a></li>
+                <li><a href="#">Sales Consultants</a></li>
+                <li><a href="#">SEO Experts</a></li>
+                <li><a href="#">Social Media Consultants</a></li>
+                <li><a href="#">Swift Developers</a></li>
+                <li><a href="#">Technical Writers</a></li>
+                <li><a href="#">UI Designers</a></li>
+                <li><a href="#">UX Designers</a></li>
+                <li><a href="#">Virtual Assistants</a></li>
+                <li><a href="#">Web Designers</a></li>
+                <li><a href="#">Wordpress Developers</a></li>
+                <li><a href="#">Writers</a></li>
+            </ul>
+            <div class="skillsMobile">
+                <ul>
+                    <li><a href="#">Android Developers</a></li>
+                    <li><a href="#">AngularJs Developers</a></li>
+                    <li><a href="#">Bookkeepers</a></li>
+                    <li><a href="#">C# Developers</a></li>
+                    <li><a href="#">Content Writers</a></li>
+                    <li><a href="#">Copywriters</a></li>
+                    <li><a href="#">Customer Service Representives</a></li>
+                    <li><a href="#">Data Entry Specialist</a></li>
+                    <li><a href="#">Email Marketing Consultants</a></li>
+                    <li><a href="#">Excel Experts</a></li>
+                    <br>
+                    <li><a href="#" id="viewMore">View more</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="getStarted">
+    <div class="box">
+        <h1>Build your own team</h1>
+        <button type="button" id="buttonGetStarted">Get Started</button>
+    </div>
+</div>
+<div id="footer">
+    <div id="footerMobile">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footerItem">
+                        <h5 class="accordion">Company info</h5>
+                        <div class="footerContent">
+                            <ul class="list-unstyled">
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Customer Stories</a></li>
+                                <li><a href="#">Press</a></li>
+                                <li><a href="#">Careers</a></li>
+                                <li><a href="#">UpWork Blog</a></li>
+                                <li><a href="#">Terms Of Service</a></li>
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Trust & Safety</a></li>
+                                <li><a href="#">Hiring Headquaters</a></li>
+                                <li><a href="#">Online Work Report</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerItem">
+                        <h5 class="accordion">Additional Services</h5>
+                        <div class="footerContent">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Upwork Pro</a></li>
+                                <li><a href="#">Enterprise Solutions</a></li>
+                                <li><a href="#">Local Business Resources</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerItem">
+                        <h5 class="accordion">Connect with us</h5>
+                        <div class="footerContent">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Contact & Support</a></li>
+                                <li><a href="#">API Center</a></li>
+                                <li><a href="#">Mobile App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerItem">
+                        <h5 class="accordion">Browse</h5>
+                        <div class="footerContent">
+                            <ul class="list-unstyled">
+                                <li><a href="#">Freelancers by Skill</a></li>
+                                <li><a href="#">Freelancers in USA</a></li>
+                                <li><a href="#">Freelancers in UK</a></li>
+                                <li><a href="#">Freelancers in Canada</a></li>
+                                <li><a href="#">Freelancers in Australia</a></li>
+                                <li><a href="#">Find Jobs</a></li>
+                                <li><a href="#">Hiring Resources</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerItem">
+                        <h5 class="accordion">Follow Us</h5>
+                        <div class="footer-social" id="footerFollow">
+                            <ul class="list-inline list-unstyled">
+                                <li><a href="#"><span class="icon icon-gplus"></span></a></li>
+                                <li><a href="#"><span class="icon icon-fb"></span></a></li>
+                                <li><a href="#"><span class="icon icon-in"></span></a></li>
+                                <li><a href="#"><span class="icon icon-twitter"></span></a></li>
+                                <li><a href="#"><span class="icon icon-youtube"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footerItem footer-social" id="mobileApp">
+                        <h5>Download Mobile App</h5>
+                        <ul class="pull-right list-inline list-unstyled">
+                            <li><a href="#"><span class="icon icon-android"></span></a></li>
+                            <li><a href="#"><span class="icon icon-ios"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-page">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xs-12 col-sm-12 col-md-12">
+                                    <p>© 2015 - 2017 Upwork Global Inc.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footerDesktop">
+        <div class="container">
+            <div class="footerSiteMap">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>Company Info</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Customer Stories</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Upwork Blog</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Trust & Safety</a></li>
+                            <li><a href="#">Hiring Headquarters</a></li>
+                            <li><a href="#">Online Work Report</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Additional Service</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Upwork Pro</a></li>
+                            <li><a href="#">Enterprise Solutions</a></li>
+                            <li><a href="#">Local Business Resources</a></li>
+                        </ul>
+                        <h4 id="footerHeadline">Connect with us</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Contact & Support</a></li>
+                            <li><a href="#">API Center</a></li>
+                            <li><a href="#">Mobile App</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>Browse</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#">Freelancers by Skill</a></li>
+                            <li><a href="#">Freelancers in USA</a></li>
+                            <li><a href="#">Freelancers in UK</a></li>
+                            <li><a href="#">Freelancers in Canada</a></li>
+                            <li><a href="#">Freelancers in Australia</a></li>
+                            <li><a href="#">Find Jobs</a></li>
+                            <li><a href="#">Hiring Resources</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-social">
+                <hr class="footerLine">
+                <div class="row" id="rowSocial">
+                    <div class="col-sm-7 verticalCent">
+                        <span class="title">Follow Us</span>
+                        <ul class="list-inline list-unstyled">
+                            <li><a href="#"><span class="icon icon-gplus"></span></a></li>
+                            <li><a href="#"><span class="icon icon-fb"></span></a></li>
+                            <li><a href="#"><span class="icon icon-in"></span></a></li>
+                            <li><a href="#"><span class="icon icon-twitter"></span></a></li>
+                            <li><a href="#"><span class="icon icon-youtube"></span></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-5 verticalCent text-right">
+                        <span class="title">Download mobile app</span>
+                        <ul class="list-inline list-unstyled">
+                            <li><a href="#"><span class="icon icon-android"></span></a></li>
+                            <li><a href="#"><span class="icon icon-ios"></span></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <hr class="footerLine">
+            </div>
+            <div class="footer-page">
+                <div class="container">
+                    <p class="text-center">© 2015 - 2017 Upwork Global Inc.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>

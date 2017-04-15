@@ -1,0 +1,1223 @@
+#header{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom:15px;
+}
+#header #searchButton{
+    display: inline-block;
+    width: 240px;
+    height: 35px;
+    border: 2px solid #e0e0e0;
+}
+#header #searchButton:hover{
+    border-color: #00e600;
+}
+::-webkit-input-placeholder{
+    text-align: center;
+    color:black;
+    font-size: 16px;
+}
+#header a{
+    color:#7d7d7d;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#header a:hover{
+    color:#00e600;
+}
+#header .headerLogo{
+    float:right;
+}
+#header ul{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#header #left{
+    margin-right: 90px;
+}
+#header .ep li{
+    float: left;
+    display: inline;
+    margin: 0px 19px 0px 19px;
+}
+#header .signupHover:hover{
+    color:#00e600;
+}
+#header .signupHover .signup:hover{
+    background-position: -124px 0px;
+}
+#header .icon{
+    background: url(../images/sprite.png);
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width:18px;
+    height: 17px;
+}
+#header .signup{
+    background-position: -107px 0px;
+}
+#header .login{
+    background-position: -142px 0px;
+}
+#header #buttonHeader{
+    display: inline-block;
+    width: 240px;
+    height: 35px;
+    margin-left: 20px;
+    position: relative;
+    border: 2px solid #e0e0e0;
+    color:#37a000;
+    background-color: transparent;
+    font-weight: 600;
+}
+#header #buttonHeader:hover{
+    color:#009900;
+    border-color:#009900;
+}
+#header .dropdown-content{
+    display:none;
+}
+#header .show {
+    display:block;
+}
+#header .sub-menu{
+    position: absolute;
+    width:270px;
+    margin-top: -10px;
+    left: 376px;
+    top: 75px;
+    z-index: 210;
+    background: #fff;
+    font-size: 14px;
+}
+#header .dropdown-content ul li{
+    line-height: 50px;
+    border: 2px solid #e0e0e0;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    display:block;
+    float: none;
+}
+#header .dropdown-content .sub-menu li a{
+    display: block;
+    height: 50px;
+    line-height: 48px;
+    text-indent: 18px;
+}
+#header .mobileMenu{
+    display:none;
+}
+#slider{
+    padding:74px 0px 80px 0px;
+    text-align:center;
+    background-image:url(../images/yellow-homepage-hero-image.2ee2461cf40f.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 500px;
+    max-height: 600px;
+    height: 66vh;
+}
+#slider .sliderVertical{
+    vertical-align: middle;
+}
+#slider h2{
+    color:#1db7b7;
+    font-size: 60px;
+    text-align: left;
+    font-weight: 800;
+    margin-bottom: 17px;
+}
+#slider h4{
+    font-size:35px;
+    font-weight: 800;
+    margin-bottom: 73px;
+    text-align: left;
+    color: white;
+}
+#slider #sliderButton{
+    width:70%;
+    height: 50px;
+    border-right: 0 none;
+    border-color: #e0e0e0;
+    display:inline-block;
+    float:left;
+}
+#slider button{
+    background-color: #1db7b7;
+    border-color:transparent;
+    box-shadow:none;
+    display: inline-block;
+    font-size: 14px;
+    width: 30%;
+    line-height: 1;
+    height:50px;
+    padding: 13px 15px;
+    color:white;
+    font-weight: 600;
+    border-radius: 2px;
+}
+#allCategories{
+    padding: 20px 0 60px 0;
+}
+#allCategories .container ul .spanner{
+    width: 25%;
+    display:block;
+    float:left;
+    list-style-type: none;
+    border: 1px solid #e0e0e0;
+}
+#allCategories .container ul .spanner h4{
+    text-align:center;
+}
+#allCategories a{
+    text-decoration: none;
+    color:#494949;
+    font-weight: 400;
+}
+#allCategories h2{
+    margin-bottom: 71px;
+    margin-top: 71px;
+    font-size:40px;
+    line-height:50px;
+    font-weight: 600;
+    text-align: center;
+}
+#allCategories h5{
+    text-align:center;
+    text-transform: uppercase;
+    font-size:14px;
+}
+#allCategories .icon{
+    background-image: url(../images/sprite.png);
+    display: block;
+    margin: 15px auto 15px auto;
+    font-weight: 600;
+}
+#allCategories .icon.icon-first{
+    background-position: -178px 0px;
+    width: 45px;
+    height: 46px;
+}
+#allCategories .icon.icon-second{
+    background-position: -233px 0px;
+    width: 26px;
+    height: 46px;
+}
+#allCategories .icon.icon-third{
+    background-position: -268px -3px;
+    width: 32px;
+    height: 46px;
+}
+#allCategories .icon.icon-fourth{
+    background-position: -302px -3px;
+    width: 42px;
+    height: 46px;
+}
+#allCategories .icon.icon-fifth{
+    background-position: -344px -3px;
+    width: 48px;
+    height: 46px;
+}
+#allCategories .icon.icon-sixth{
+    background-position: -398px 0px;
+    width: 38px;
+    height: 46px;
+}
+#allCategories .icon.icon-seventh{
+    background-position: -440px 0px;
+    width: 40px;
+    height: 46px;
+}
+#allCategories .icon.icon-eight{
+    background-position: -485px 0px;
+    width: 44px;
+    height: 46px;
+}
+#allCategories .testline {
+    width: 60px;
+    border: 1px solid #e0e0e0;
+}
+#allCategories #buttonCategories{
+    display: block;
+    width: 210px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    vertical-align: middle;
+    border: 2px solid #e0e0e0;
+    color:#37a000;
+    background-color: transparent;
+    font-weight: 600;
+}
+#allCategories #buttonCategories:hover{
+    color:#009900;
+    border-color:#009900;
+}
+#howItWorks{
+    background-color:#f9f9f9;
+    padding: 40px 0px 40px 0px;
+    text-align: center;
+}
+#howItWorks .icon{
+    background-image: url(../images/sprite.png);
+    width: 135px;
+    height: 135px;
+    display: inline-block;
+    text-align: center;
+}
+#howItWorks .icon.icon-find{
+    background-position: -536px 0px;
+}
+#howItWorks .icon.icon-hire{
+    background-position: 0px -46px;
+}
+#howItWorks .icon.icon-work{
+    background-position: 0px -192px;
+}
+#howItWorks .icon.icon-pay{
+    background-position: 0px -343px;
+}
+#howItWorks hr{
+    width: 80px;
+    margin: 23px auto 25px auto;
+    border-top: 2px solid #e0e0e0;
+}
+#service{
+    padding: 30px 0px 80px 0px;
+    overflow: hidden;
+}
+#service h1{
+    text-align:center;
+    margin: 20px 0px 20px 0px;
+}
+#service p{
+    color:#b2b2b2;
+    text-align: left;
+    font-size: 22px;
+    margin: 30px 0px;
+}
+#service .card p{
+    color:#b2b2b2;
+    text-align: center;
+    font-size: 16px;
+    margin: 30px 0px;
+}
+#service #upwork .control{
+    display: none;
+}
+#service #upworkPro .control{
+    display:none;
+}
+#service #upworkEnterprise .control{
+    display:none;
+}
+#service .card{
+    background-color: #f9f9f9!important;
+    border-left:1px solid #e0e0e0;
+    border-right:1px solid #e0e0e0;
+    border-bottom:1px solid #e0e0e0;
+}
+#service .card-block{
+    margin-top: -20px;
+    padding-left:15px;
+    padding-right:15px;
+}
+#service .card-text{
+    color:#b2b2b2;
+    margin: 0 0;
+}
+#service .card-title{
+    text-align: center;
+    padding-top: 20px;
+}
+#service .btn-block-xsmall{
+    font-weight: 600;
+    color: #37a000;
+    background-color: white;
+    border: 2px solid #e0e0e0;
+    margin: 30px 0px;
+}
+#service .btn-block-xsmall:hover{
+    border:2px solid #009900;
+}
+#service .cards{
+    padding-left: 0px !important;
+    padding-right: 0px!important;
+}
+#service .card.upwork{
+    border-top: 10px solid #b0e44f;
+}
+#service .card.upworkPro{
+    border-top: 10px solid #6fda44;
+}
+#service .card.upworkEnterprise{
+    border-top: 10px solid #37a000;
+}
+#service .table{
+    width: 25%;
+}
+#service .PrimaryControl h4{
+    display:block;
+    cursor:pointer;
+    text-decoration: none;
+    color:  #008329;
+    margin-left: 25px;
+}
+#service .control h4{
+    display:block;
+    cursor:pointer;
+    text-decoration: none;
+    color:  #008329;
+    margin-left: 25px;
+}
+
+#service .PrimaryControl{
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+    display: block;
+}
+#service .control{
+    border-bottom: 1px solid #e0e0e0;
+    border-top: 1px solid #e0e0e0;
+}
+#service .PrimaryControl::before{
+    content: " ";
+    background-image: url(../images/sprite.png);
+    background-position: -398px -84px;
+    width: 11px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    left: 10px;
+    margin-top: 11px;
+}
+#service .control::before{
+    content: " ";
+    background-image: url(../images/sprite.png);
+    background-position: -398px -84px;
+    width: 11px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    margin-top: 11px;
+}
+#service .ticked{
+    background-image: url(../images/sprite.png);
+    background-position: -685px 0px;
+    height: 23px;
+    width: 25px;
+    display: block;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+#service .table{
+    width: 100%;
+    margin-bottom: 0px;
+}
+#service .table ::before{
+    content: none;
+}
+#service .table td{
+    width: 25%;
+}
+#service .tableInfo{
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0px 0px;
+    color: black;
+}
+#service .expandUpwork{
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 20px;
+}
+#service .expandUpwork ul{
+    padding-left:15px;
+}
+#service .expandUpwork ul li{
+    font-size: 14px;
+    line-height: 35px;
+}
+#service .expandUpworkPro{
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 20px;
+}
+#service .expandUpworkPro ul{
+    padding-left:15px;
+}
+#service .expandUpworkPro ul li{
+    font-size: 14px;
+    line-height: 35px;
+}
+#service .expandUpworkEnterprise{
+    border-left: 1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+    padding-left: 20px;
+}
+#service .expandUpworkEnterprise ul{
+    padding-left:15px;
+}
+#service .expandUpworkEnterprise ul li{
+    font-size: 14px;
+    line-height: 35px;
+}
+#service .check-cell{
+    padding-left:10px;
+    padding-top: 11px;
+    height:40px;
+}
+#service .mobileService{
+    padding: 0px 0px;
+}
+#service .mobileService .tile-block{
+    background-color:#f2f2f2;
+    border-top:1px solid #e0e0e0;
+    border-right: 1px solid #e0e0e0;
+    border-left: 1px solid #e0e0e0;
+}
+#service .serviceDesc{
+    text-align:left;
+}
+#service .mobileService .leftBorder{
+    border-left:1px solid #e0e0e0;
+}
+#service .mobileService .rightBorder{
+    border-right:1px solid #e0e0e0;
+}
+#service .mobileService p{
+    margin: -6px 0px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+    color: black;
+}
+#stories{
+    background-color:#f9f9f9;
+    padding: 50px 0;
+}
+#stories .row{
+    display:flex;
+}
+#stories .video{
+    float:right;
+    align-self:center;
+    height:100%;
+}
+#stories .iconQuote{
+    background-image: url(../images/sprite.png);
+    background-position: -730px 0px;
+    display: inline-block;
+    height: 31px;
+    width: 31px;
+}
+#stories #text{
+    font-size: 30px;
+    font-weight: 300;
+    color:#494949;
+    line-height: 44px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#stories #author{
+    font-size: 11px;
+    margin-bottom: 30px;
+}
+#stories #buttonStories{
+    display: block;
+    width: 210px;
+    height: 35px;
+    vertical-align: middle;
+    border: 2px solid #e0e0e0;
+    color:#37a000;
+    background-color: transparent;
+    font-weight: 600;
+}
+#stories #buttonStories:hover{
+    color:#009900;
+    border-color:#009900;
+}
+#business{
+    background-color:#f2f2f2;
+    padding-top:33px;
+    padding-bottom: 33px;
+    text-align:center;
+    overflow-x:hidden;
+}
+#business h4{
+    text-align:center;
+    margin-bottom: 34px;
+    color: #b2b2b2;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 22px;
+}
+#business .logobar{
+    background-image: url(../images/logobar-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:contain;
+    height:91px;
+}
+#topSkills{
+    padding: 40px 0px 40px 0px;
+}
+#topSkills h4{
+    text-transform: uppercase;
+}
+#topSkills .desktop{
+    list-style: none;
+    column-count: 4;
+    column-gap: 30px;
+}
+#topSkills .skillsMobile{
+    display:none;
+}
+#topSkills ul{
+    margin-bottom: 90px;
+}
+#topSkills ul li{
+    line-height: 30px;
+    padding-left: 0px;
+}
+#topSkills ul li a{
+    text-decoration:none;
+    font-size: 14px;
+    color: #494949;
+    margin-bottom: 16px;
+    font-weight: 500;
+    white-space: normal;
+    word-wrap: break-word;
+}
+#topSkills .skillsMobile ul li a {
+    text-decoration:none;
+    font-size: 14px;
+    color: #494949;
+    margin-bottom: 16px;
+    font-weight: 500;
+    white-space: normal;
+    word-wrap: break-word;
+}
+#topSkills .skillsMobile ul li{
+    list-style: none;
+}
+#getStarted{
+    background-color:#5bbc2e;
+    display: flex;
+    align-content: center;
+    padding: 60px 0px 0px 0px;
+}
+#getStarted .box{
+    width: 100%;
+    align-self: center;
+}
+#getStarted .box h1{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#getStarted .box #buttonGetStarted{
+    display: block;
+    width: 160px;
+    height: 40px;
+    color:white;
+    font-weight: 600;
+    border: 2px solid white;
+    background-color: #5bbc2e;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#getStarted .box #buttonGetStarted:hover{
+    color: #5bbc2e;
+    background-color: white;
+}
+#footer{
+    background-color: #7d7d7d;
+    color: #e0e0e0;
+    padding-top: 76px;
+    padding-bottom: 0px;
+    overflow: hidden;
+}
+#footer #footerMobile{
+    display:none;
+}
+#footer .footer-sitemap{
+    margin-bottom:63px;
+    height: 370px;
+}
+#footer h4{
+    margin-bottom: 33px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+#footer #footerHeadline{
+    margin-top: 33px;
+}
+#footer ul li{
+    margin-bottom: 9px;
+}
+#footer ul li a{
+    text-decoration: none;
+    color:#e0e0e0;
+}
+#footer .footerSiteMap{
+    margin-bottom:53px;
+}
+#footer .footer-social h5{
+    display: table-cell;
+    margin-right:18px;
+    margin-top: 3px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-weight: 500;
+    color: #e0e0e0;
+}
+#footer .verticalCent{
+    display:table;
+    vertical-align:middle;
+}
+#footer .verticalCent ul{
+    vertical-align:middle;
+}
+#footer .footer-social ul{
+    display: inline-block;
+    margin-bottom: 25px;
+    height: 32px;
+}
+#footer .footer-social ul li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer #rowSocial{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#footer .footer-social ul{
+    display: inline-block;
+    margin-bottom: 0px;
+    height: 32px;
+}
+#footer .footer-social ul li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+#footer .footer-social .icon{
+    background-image: url(../images/sprite.png);
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+}
+#footer .footerLine{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border-color:#b2b2b2;
+    border-top: 1px solid;
+    width: 100%;
+}
+#footer .footer-social .icon-gplus{
+    background-position: -145px -82px;
+}
+#footer .footer-social .icon-fb{
+    background-position: -182px -82px;
+}
+#footer .footer-social .icon-in{
+    background-position: -218px -82px;
+}
+#footer .footer-social .icon-twitter{
+    background-position: -252px -82px;
+}
+#footer .footer-social .icon-youtube{
+    background-position: -288px -82px;
+}
+#footer .footer-social .icon-android{
+    background-position: -324px -82px;
+}
+#footer .footer-social .icon-ios{
+    background-position: -361px -82px;
+}
+#footer .footerItem #footerFollow{
+    display:none;
+}
+#footer .footer-social .title{
+    margin-right:18px;
+}
+#footer .footer-page{
+    display: table;
+    width:100%;
+    padding-top:76px;
+    padding-bottom: 64px;
+}
+#footer .footer-page p{
+    text-align: center;
+    font-size: 12px;
+    color: #e0e0e0;
+}
+
+@media (max-width: 767px){
+    #header{
+        height: 55px;
+        line-height: 55px;
+        display:block;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #header .test{
+        display:none;
+    }
+    #header img{
+        margin-left:10px;
+    }
+    #slider{
+        background-image: none;
+        background-color: #f5d952;
+        min-height: 100px;
+        max-height: 450px;
+        padding-bottom: 75px;
+        padding-top: 60px;
+    }
+    #slider #sliderButton{
+        display:none;
+    }
+    #slider button{
+        float:none;
+        width: auto;
+        min-width: 225px;
+    }
+    #slider h2{
+        font-size: 35px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    #slider h4{
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 23px;
+    }
+    #allCategories .container ul .spanner{
+        width: 50%;
+        display:block;
+        float:left;
+        list-style-type: none;
+        border: 1px solid #e0e0e0;
+    }
+    #allCategories a{
+        text-decoration: none;
+        color:#494949;
+        font-weight: 400;
+    }
+    #allCategories h2{
+        margin-top: 42px;
+        margin-bottom: 42px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    #allCategories h5{
+        text-align:center;
+        text-transform: uppercase;
+        font-size:10px;
+    }
+    #stories img{
+        margin-bottom: 30px;
+    }
+    #topSkills .desktop{
+        display: none;
+    }
+    #topSkills .skillsMobile{
+        display: block;
+        column-count: 1;
+    }
+    #topSkills .skillsMobile #viewMore{
+        font-weight: 600;
+    }
+    #business .logobar{
+        background-image:url(../images/logobar-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:contain;
+        height:91px;
+    }
+    #service .PrimaryControl{
+        display:none;
+    }
+    #service #upwork{
+        margin-bottom: 50px;
+    }
+    #service #upworkPro{
+        margin-bottom: 50px;
+    }
+    #service #upwork .control{
+        display:block;
+    }
+
+    #service #upworkPro .control{
+        display:block;
+    }
+
+    #service #upworkEnterprise .control{
+        display:block;
+    }
+    #service .cards{
+        padding-left:15px!important;
+        padding-right: 15px!important;
+    }
+    #service .btn-block-xsmall{
+        min-width:225px;
+    }
+    #service .serviceDesc{
+        text-align:center;
+    }
+    #service .expand{
+        font-size:14px;
+        font-weight: 600;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    #service .control::before{
+        margin-top: 17px;
+    }
+    #stories #text{
+        font-size:28px;
+    }
+    #footer{
+        padding-top: 44px;
+        padding-bottom: 32px;
+    }
+    #footer #footerMobile .footerItem{
+        padding-top:24px;
+        padding-bottom:24px;
+    }
+    #footer #footerDesktop{
+        display: none;
+    }
+    #footer #footerMobile{
+        display:block;
+    }
+    #footer #footerMobile .footerItem{
+        border-bottom: 1px solid #b2b2b2;
+    }
+    #footer #footerMobile .footerItem:first-child{
+        border-top:1px solid #b2b2b2;
+    }
+    #footer #footerMobile h5{
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-weight: 600;
+        display: block;
+        cursor: pointer;
+        position: relative;
+    }
+    #footer #footerMobile .footerItem ul li{
+        margin-bottom: 9px;
+    }
+    #footer #footerMobile .footerItem ul li a{
+        color:#e0e0e0;
+        text-decoration:none;
+    }
+    #footer #footerMobile .footer-page{
+        padding-top:44px;
+        padding-bottom: 32px;
+    }
+    #footer #footerMobile .footerItem .footerContent{
+        display:none;
+    }
+    #footer #footerMobile .accordion::after{
+        content: ' ';
+        background-image: url(../images/sprite.png);
+        background-position: -414px -84px;
+        display: inline-block;
+        width: 11px;
+        height: 6px;
+        position: absolute;
+        right: 35px;
+        top: 5px;
+    }
+    #footer #footerMobile #mobileApp h5{
+        display: inline;
+    }
+    #footer #footerMobile #mobileApp ul li{
+        margin-top: 5px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    #header{
+        height: 55px;
+        line-height: 55px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        display:block;
+    }
+    #header .test{
+        display:none;
+    }
+    #header .logo{
+        display: inline-block;
+        margin: 0 25px;
+        width: 95px;
+        height: 47px;
+    }
+    #header img{
+        margin-left:25px;
+    }
+    #slider{
+        padding: 95px 0px 100px 0px;
+        background-image:url(../images/yellow-homepage-hero-image.2ee2461cf40f.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+    #slider .container{
+        margin: 0 0;
+        padding: 0 25px;
+    }
+    #slider h2{
+        text-align: left;
+        font-size: 45px;
+    }
+    #slider h4{
+        font-size: 35px;
+        text-align: left;
+        margin-bottom: 27px;
+    }
+    #slider button{
+        float: left;
+        width: auto;
+        min-width: 225px;
+    }
+    #slider #sliderButton{
+        display:none;
+    }
+    #allCategories .container ul .spanner{
+        width: 50%;
+        display:block;
+        float:left;
+        list-style-type: none;
+        border: 1px solid #e0e0e0;
+    }
+    #allCategories a{
+        text-decoration: none;
+        color:#494949;
+        font-weight: 400;
+    }
+    #allCategories h5{
+        text-align:center;
+        text-transform: uppercase;
+        font-size:14px;
+    }
+    #allCategories h2{
+        font-size: 30px;
+        margin-top: 52px;
+        margin-bottom: 52px;
+    }
+    #business .logobar{
+        background-image:url(../images/logobar-tablet.svg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size:contain;
+        height:91px;
+    }
+    #topSkills .desktop{
+        column-count: 2;
+    }
+    #service .serviceDesc{
+        text-align:center;
+    }
+    #service .PrimaryControl::before{
+        margin-left: 7px;
+        margin-top: 18px;
+    }
+    #service .expand{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 991px){
+    #header .mobileMenu{
+        outline:none;
+        width: 65px;
+        height: 55px;
+        display: inline-block;
+        position: absolute;
+        right: 0px;
+        cursor: pointer;
+    }
+    #header .mobileMenu span::after{
+        box-shadow: 15px 1px 0 1px #b2b2b2, 15px 8px 0 1px #b2b2b2, 15px 15px 0 1px #b2b2b2;
+        content:' ';
+        position: absolute;
+        display:block;
+        height: 0;
+        top: 50%;
+        margin-top: -8px;
+        left: 10px;
+        width: 16px;
+    }
+    #header #menu{
+        position:fixed;
+        top:0;
+        bottom:0;
+        right: -250px;
+        width: 250px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        z-index: 1000;
+        border-left: 1px solid #e0e0e0;
+        background-color: #f9f9f9;
+        transition: 0.3s all ease;
+    }
+    #header #menu.active{
+        right: 0px;
+    }
+    #header #menu ul li{
+        line-height: 59px;
+        border-bottom: 1px solid #e0e0e0;
+        float:none;
+        display:block;
+        width: 100%;
+    }
+    #header #menu ul li .buttonMenu{
+        padding-left: 25px;
+    }
+    #header #menu ul li .buttonMenu a{
+        cursor: pointer;
+        z-index: 1002;
+        color: #7d7d7d;
+        border-left: none;
+        font-size: 14px;
+        line-height: 55px;
+        padding-left: 20px;
+        display: inline-block;
+        font-weight: lighter;
+        text-decoration: none;
+    }
+    #header #menu ul li button{
+        font-weight: 600;
+        color: #fff;
+        background-color:#37a000;
+        display: inline-block;
+        text-align: center;
+        vertical-align:center;
+        cursor: pointer;
+        font-size: 14px;
+        line-height: 20px;
+        border-radius: 2px;
+        border: 2px solid transparent;
+        padding: 8px 38px;
+    }
+    #header #menu ul li a{
+        display: inline-block;
+        outline: none;
+        padding-left: 25px;
+        font-size: 14px;
+        color: #7d7d7d;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #header #menu ul li span{
+        padding-left: 25px;
+        font-size: 14px;
+        color: #7d7d7d;
+        font-weight: 600;
+        text-decoration: none;
+        text-transform: uppercase;
+    }
+    #header #menu #browse{
+        position: relative;
+    }
+    #header #menu .expand{
+        background-color: #e0e0e0;
+    }
+    #header #menu #browseExpand{
+        display:block;
+    }
+    #header #menu #aboutUsExpand{
+        display:block;
+    }
+    #header #menu .listExpanded{
+        max-height: 500px;
+    }
+    #header #menu .listExpanded li{
+        line-height: 30px;
+        height: 36px;
+        border: 0;
+    }
+    #header #menu .listExpanded li a{
+        text-transform: none;
+        font-weight: 400;
+    }
+    #header #menu #aboutUs{
+        position: relative;
+    }
+    #header #menu ul li span::after{
+        content: ' ';
+        background-image: url(../images/sprite.png);
+        background-position: -414px -84px;
+        display: inline-block;
+        width: 11px;
+        height: 6px;
+        position: absolute;
+        top: 27px;
+        right: 24px;
+    }
+    #header #menu .expandMenu{
+        background-image: url(../images/sprite.png);
+        background-position: -414px -84px;
+        display: inline-block;
+        width: 11px;
+        height: 6px;
+    }
+    #header .headerLogo{
+        float: left;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1210px){
+    #header #searchButton{
+        width: 175px;
+    }
+    #header #buttonHeader{
+        width:175px;
+    }
+    #header #left{
+        margin-right:0px;
+    }
+    #slider h4{
+        margin-bottom: 33px;
+    }
+    #topSkills .desktop{
+        column-count: 3;
+    }
+    #header .headerLogo{
+        float: left;
+    }
+    #header .test ul li{
+        margin: 0 10px;
+    }
+}
+@media only screen and (min-width: 991px){
+    #header #menu{
+        display: none;
+    }
+}
+@media only screen and (min-width: 1210px) and (max-width: 1350px){
+    #header #left{
+        margin-right:20px;
+    }
+}
